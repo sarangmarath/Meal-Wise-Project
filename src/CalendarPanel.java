@@ -62,7 +62,7 @@ public class CalendarPanel extends JPanel {
             tableModel.addRow(new Object[]{day, mealText.toString(), totalCalories});
         }
     }
-    // ✅ Getter for PDF export
+    // Getter for PDF export
     public JTable getCalendarTable() {
         return calendarTable;
     }
