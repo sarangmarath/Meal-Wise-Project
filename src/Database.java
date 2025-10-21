@@ -22,7 +22,7 @@ public class Database {
                     "age INT" +
                     ")"
                 );
-                System.out.println("✅ Users table ready");
+                System.out.println(" Users table ready");
 
                 // === Recipes Table ===
                 stmt.executeUpdate(
@@ -34,7 +34,7 @@ public class Database {
                     "dietary_type VARCHAR(50) NOT NULL" +
                     ")"
                 );
-                System.out.println("✅ Recipes table ready");
+                System.out.println(" Recipes table ready");
 
                 // === Meal Plans Table ===
                 stmt.executeUpdate(
