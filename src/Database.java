@@ -48,7 +48,7 @@ public class Database {
                     "FOREIGN KEY (recipe_id) REFERENCES recipes(id) ON DELETE CASCADE" +
                     ")"
                 );
-                System.out.println("✅ Meal Plans table ready");
+                System.out.println(" Meal Plans table ready");
 
             }
         } catch (Exception e) {
