@@ -19,13 +19,13 @@ public class AuthFrame extends JFrame {
         try {
             File imgFile = new File("meal.jpg.jpeg"); // adjust path
             if (!imgFile.exists()) {
-                System.err.println("❌ Image file not found: " + imgFile.getAbsolutePath());
+                System.err.println(" Image file not found: " + imgFile.getAbsolutePath());
             } else {
                 bgImage = ImageIO.read(imgFile);
-                System.out.println("✅ Background image loaded successfully");
+                System.out.println(" Background image loaded successfully");
             }
         } catch (IOException e) {
-            System.err.println("❌ Failed to load background image: " + e.getMessage());
+            System.err.println(" Failed to load background image: " + e.getMessage());
         }
 
         // Background panel
